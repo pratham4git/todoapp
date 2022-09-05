@@ -22,7 +22,7 @@ function App() {
         value={todo.email}
         onChange={(e)=>{setTodo({...todo, email: e.target.value})}}
         />
-        <button>Submit</button>
+        <button>Submit</button> 
       </form>
       
       <ul className="listc">
